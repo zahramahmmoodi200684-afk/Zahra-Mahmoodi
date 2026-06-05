@@ -468,6 +468,48 @@
                 <li>Ringing in the ears (tinnitus)</li>
             </ul>
             <p><strong>⚠️ Note:</strong> Regular blood pressure checks are essential because symptoms usually appear only when the condition has already caused organ damage.</p>
+
+            <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
         </div>
 
         <!-- Diagnosis -->
@@ -486,6 +528,48 @@
                 <p><strong>⚫ Hypertensive Crisis:</strong> Higher than 180/120 mm Hg (requires immediate medical attention)</p>
             </div>
             <p>Doctors may also order blood tests, urine tests, ECG, or echocardiogram to check for complications.</p>
+
+            <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
         </div>
 
         <!-- Treatment -->
@@ -503,6 +587,48 @@
             <div class="intro-box">
                 <p><strong>💡 Important Note:</strong> Most patients need to take medication for life. Never stop medication without doctor's advice. Regular follow-up is essential.</p>
             </div>
+
+            <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
         </div>
 
         <!-- Prevention -->
@@ -521,6 +647,49 @@
                 <li>Limit caffeine and avoid recreational drugs</li>
                 <li>Get 7-8 hours of quality sleep each night</li>
             </ul>
+
+            <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
         </div>
 
         <!-- Conclusion -->
@@ -537,6 +706,49 @@
                 <div class="stat-box"><div class="number">1.28B</div><div>People affected worldwide</div></div>
             </div>
         </div>
+
+        <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
     </div>
 
     <footer>
