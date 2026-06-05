@@ -156,6 +156,163 @@
             .tab-content { padding: 20px; }
             .header h1 { font-size: 1.8em; }
         }
+        /* ===== استایل‌های پخش‌کننده صوتی ===== */
+.audio-player-container {
+    margin: 30px 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.audio-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.audio-card:hover {
+    transform: translateY(-3px);
+}
+
+.audio-icon {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.audio-icon svg {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.audio-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.audio-title {
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+}
+
+.audio-description {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.custom-player {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(255,255,255,0.2);
+    padding: 12px 18px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.play-btn {
+    background: #ffd700;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.play-btn:hover {
+    transform: scale(1.05);
+    background: #ffed4a;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.play-btn svg {
+    margin-left: 3px;
+}
+
+.progress-container {
+    flex: 1;
+}
+
+.progress-bar {
+    background: rgba(255,255,255,0.3);
+    height: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: #ffd700;
+    height: 100%;
+    width: 0%;
+    border-radius: 3px;
+    transition: width 0.1s linear;
+}
+
+.time-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    color: white;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.volume-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.volume-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.05);
+}
+
+/* استایل برای موبایل */
+@media (max-width: 600px) {
+    .custom-player {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    
+    .progress-container {
+        width: 100%;
+    }
+    
+    .play-btn {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .audio-title {
+        font-size: 1em;
+    }
+}
+
+        
     </style>
 </head>
 <body>
@@ -192,6 +349,48 @@
                 <p>Hypertension, commonly known as high blood pressure, is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. It is often called the <strong>"silent killer"</strong> because it usually has no warning signs or symptoms, but can lead to serious health problems like heart attack, stroke, and kidney failure.</p>
                 <p>The disease occurs mainly in adults over 40, but younger people can also be affected. According to WHO, <strong>1.28 billion adults worldwide</strong> have hypertension, and nearly half are unaware of their condition.</p>
             </div>
+
+            <!-- ===== بخش پخش‌کننده صوتی ===== -->
+<div class="audio-player-container">
+    <div class="audio-card">
+        <div class="audio-icon">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+            </svg>
+        </div>
+        <div class="audio-info">
+            <h3 class="audio-title">🎙️ اطلاعات صوتی: فشار خون چیست؟</h3>
+            <p class="audio-description">به توضیحات صوتی درباره بیماری فشار خون گوش دهید</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="customAudio" controls style="display:none;">
+                <source src="audio/hypertension-guide.mp3" type="audio/mpeg">
+                مرورگر شما از پخش صوت پشتیبانی نمی‌کند.
+            </audio>
+            <div class="custom-player">
+                <button class="play-btn" id="playBtn">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="currentTime">0:00</span>
+                        <span id="duration">0:00</span>
+                    </div>
+                </div>
+                <button class="volume-btn" id="volumeBtn">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
         </div>
 
         <!-- Causes -->
@@ -327,6 +526,88 @@
             document.getElementById(tabId).classList.add('active');
         });
     });
+
+  
+// ===== کنترل‌کننده پخش صوتی =====
+const audio = document.getElementById('customAudio');
+const playBtn = document.getElementById('playBtn');
+const progressBar = document.getElementById('progressBar');
+const progressFill = document.getElementById('progressFill');
+const currentTimeSpan = document.getElementById('currentTime');
+const durationSpan = document.getElementById('duration');
+const volumeBtn = document.getElementById('volumeBtn');
+
+let isPlaying = false;
+
+// آپدیت دکمه پخش
+function updatePlayButton() {
+    const svg = playBtn.querySelector('svg');
+    if (isPlaying) {
+        svg.innerHTML = '<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';
+    } else {
+        svg.innerHTML = '<path d="M8 5v14l11-7z"/>';
+    }
+}
+
+// پخش/توقف
+playBtn.addEventListener('click', () => {
+    if (isPlaying) {
+        audio.pause();
+    } else {
+        audio.play();
+    }
+    isPlaying = !isPlaying;
+    updatePlayButton();
+});
+
+// آپدیت زمان و پیشرفت
+audio.addEventListener('timeupdate', () => {
+    const percent = (audio.currentTime / audio.duration) * 100;
+    progressFill.style.width = percent + '%';
+    
+    const currentMin = Math.floor(audio.currentTime / 60);
+    const currentSec = Math.floor(audio.currentTime % 60);
+    currentTimeSpan.textContent = `${currentMin}:${currentSec.toString().padStart(2, '0')}`;
+});
+
+// دریافت مدت زمان فایل
+audio.addEventListener('loadedmetadata', () => {
+    const durMin = Math.floor(audio.duration / 60);
+    const durSec = Math.floor(audio.duration % 60);
+    durationSpan.textContent = `${durMin}:${durSec.toString().padStart(2, '0')}`;
+});
+
+// کلیک روی نوار پیشرفت
+progressBar.addEventListener('click', (e) => {
+    const rect = progressBar.getBoundingClientRect();
+    const percent = (e.clientX - rect.left) / rect.width;
+    audio.currentTime = percent * audio.duration;
+});
+
+// کنترل صدا (mute/unmute)
+let isMuted = false;
+let lastVolume = 1;
+
+volumeBtn.addEventListener('click', () => {
+    if (isMuted) {
+        audio.volume = lastVolume;
+        isMuted = false;
+        volumeBtn.style.opacity = '1';
+    } else {
+        lastVolume = audio.volume;
+        audio.volume = 0;
+        isMuted = true;
+        volumeBtn.style.opacity = '0.5';
+    }
+});
+
+// پایان آهنگ
+audio.addEventListener('ended', () => {
+    isPlaying = false;
+    updatePlayButton();
+    progressFill.style.width = '0%';
+    currentTimeSpan.textContent = '0:00';
+});
 </script>
 
 </body>
