@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypertension - High Blood Pressure Info</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #c0392b; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; }
+        h2 { color: #e67e22; margin-top: 25px; }
+        .intro { background: #fdebd0; padding: 15px; border-radius: 5px; margin: 20px 0; border-left: 5px solid #e74c3c; }
+        ul, ol { margin: 10px 0; padding-left: 20px; }
+        footer { text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid #ddd; color: #7f8c8d; font-size: 0.9em; }
+        .highlight { background: #f9ebea; padding: 10px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Hypertension (High Blood Pressure)</h1>
+    <p>Your Name - Educational Health Resource</p>
+    
+    <div class="intro">
+        <h2>📌 Introduction</h2>
+        <p>Hypertension, commonly known as high blood pressure, is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. It is often called the "silent killer" because it usually has no warning signs or symptoms, but can lead to serious health problems like heart attack, stroke, and kidney failure.</p>
+    </div>
+    
+    <h2>🩺 Causes and Risk Factors</h2>
+    <p>Hypertension is divided into two types:</p>
+    <ul>
+        <li><strong>Primary (Essential) Hypertension:</strong> No single identifiable cause; develops gradually over many years. Risk factors include age, genetics, obesity, high salt intake, lack of physical activity, and stress.</li>
+        <li><strong>Secondary Hypertension:</strong> Caused by an underlying condition such as kidney disease, adrenal gland tumors, thyroid problems, or use of certain medications like birth control pills or NSAIDs.</li>
+    </ul>
+    
+    <h2>⚠️ Symptoms</h2>
+    <p>Most people with hypertension have no symptoms at all. However, extremely high blood pressure (hypertensive crisis) may cause:</p>
+    <ul>
+        <li>Severe headaches</li>
+        <li>Shortness of breath</li>
+        <li>Nosebleeds</li>
+        <li>Flushing</li>
+        <li>Chest pain</li>
+        <li>Vision problems</li>
+        <li>Blood in urine</li>
+    </ul>
+    <p class="highlight">🔔 <strong>Note:</strong> Regular blood pressure checks are essential because symptoms usually appear only when the condition has already caused organ damage.</p>
+    
+    <h2>🔬 Diagnosis</h2>
+    <p>Diagnosis is made by measuring blood pressure using a sphygmomanometer (blood pressure cuff). According to standard guidelines:</p>
+    <ul>
+        <li><strong>Normal:</strong> Less than 120/80 mm Hg</li>
+        <li><strong>Elevated:</strong> 120-129/less than 80 mm Hg</li>
+        <li><strong>Stage 1 Hypertension:</strong> 130-139/80-89 mm Hg</li>
+        <li><strong>Stage 2 Hypertension:</strong> 140 or higher/90 or higher mm Hg</li>
+        <li><strong>Hypertensive Crisis:</strong> Higher than 180/120 mm Hg (requires immediate medical attention)</li>
+    </ul>
+    <p>Doctors may also order blood tests, urine tests, ECG, or echocardiogram to check for complications.</p>
+    
+    <h2>💊 Treatment</h2>
+    <p>Treatment includes lifestyle changes and medications:</p>
+    <ul>
+        <li><strong>Lifestyle modifications:</strong> Reduce salt intake, eat more fruits/vegetables (DASH diet), exercise regularly (at least 30 minutes daily), maintain healthy weight, limit alcohol, and quit smoking.</li>
+        <li><strong>Common medications:</strong> ACE inhibitors (Lisinopril), ARBs (Losartan), Calcium channel blockers (Amlodipine), Diuretics (Hydrochlorothiazide), Beta-blockers (Metoprolol).</li>
+    </ul>
+    <p>Most patients need to take medication for life. Never stop medication without doctor's advice.</p>
+    
+    <h2>🛡️ Prevention</h2>
+    <ul>
+        <li>Check your blood pressure regularly after age 18</li>
+        <li>Eat a balanced, low-sodium diet</li>
+        <li>Exercise at least 150 minutes per week</li>
+        <li>Maintain a healthy BMI (18.5-24.9)</li>
+        <li>Manage stress through meditation or hobbies</li>
+        <li>Limit caffeine and avoid recreational drugs</li>
+    </ul>
+    
+    <h2>🌍 Global Impact</h2>
+    <p>According to the World Health Organization (WHO), an estimated 1.28 billion adults aged 30-79 years worldwide have hypertension, with nearly half unaware of their condition. It is a leading cause of premature death globally, responsible for over 10 million deaths annually. Low- and middle-income countries bear the greatest burden due to limited healthcare access.</p>
+    
+    <h2>📖 Conclusion</h2>
+    <p>Hypertension is manageable and preventable. Regular monitoring, healthy lifestyle choices, and following prescribed treatments can significantly reduce risks of heart attack, stroke, and kidney disease. Education and awareness are the first steps toward better cardiovascular health.</p>
+    
+    <footer>
+        Sources: World Health Organization (WHO), American Heart Association, CDC, Mayo Clinic<br>
+        This information is for educational purposes. Always consult a healthcare provider.
+    </footer>
+</div>
+</body>
+</html>
