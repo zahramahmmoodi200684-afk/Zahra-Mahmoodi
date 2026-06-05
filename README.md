@@ -182,7 +182,9 @@
         <!-- Introduction -->
         <div id="intro" class="tab-pane active">
             <div class="image-box">
-                <img src="images/1.jpg" alt="Blood pressure measurement">
+                <img src="images/3.jpg" alt="Blood pressure measurement">
+                <img src="images/2.jpg" alt="Blood pressure measurement">
+
                 <div class="image-caption">Measuring blood pressure - First step to diagnosis</div>
             </div>
             <div class="intro-box">
@@ -196,7 +198,7 @@
         <div id="causes" class="tab-pane">
             <h2>🩺 Causes & Risk Factors</h2>
             <div class="image-box">
-                <img src="https://www.heart.org/-/media/Images/Health-Topics/High-Blood-Pressure/risk-factors.jpg" alt="Risk factors">
+                <img src="images/4.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Common risk factors for hypertension</div>
             </div>
             <p>Hypertension is divided into two types:</p>
@@ -214,7 +216,7 @@
         <div id="symptoms" class="tab-pane">
             <h2>⚠️ Warning Signs & Symptoms</h2>
             <div class="image-box">
-                <img src="https://images.pexels.com/photos/3938022/doctor-taking-care-of-patient.jpg" alt="Symptoms">
+                <img src="images/6.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Severe headache and chest pain are warning signs</div>
             </div>
             <p>Most people with hypertension have no symptoms at all. However, extremely high blood pressure (hypertensive crisis) may cause:</p>
@@ -234,7 +236,7 @@
         <div id="diagnosis" class="tab-pane">
             <h2>🔬 How is Hypertension Diagnosed?</h2>
             <div class="image-box">
-                <img src="https://images.pexels.com/photos/4386466/doctor-measuring-blood-pressure.jpg" alt="Blood pressure monitor">
+                <img src="images/8.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Regular monitoring at home is important</div>
             </div>
             <p>Diagnosis is made by measuring blood pressure using a sphygmomanometer (blood pressure cuff). According to standard guidelines:</p>
@@ -252,7 +254,7 @@
         <div id="treatment" class="tab-pane">
             <h2>💊 Treatment Options</h2>
             <div class="image-box">
-                <img src="https://www.drugs.com/images/pills/color/lisinopril-10-mg.jpg" alt="Medication">
+                <img src="images/12.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Common blood pressure medications</div>
             </div>
             <p>Treatment includes lifestyle changes and medications:</p>
@@ -269,7 +271,7 @@
         <div id="prevention" class="tab-pane">
             <h2>🛡️ Prevention Tips</h2>
             <div class="image-box">
-                <img src="https://images.pexels.com/photos/2294361/exercise-weights-dumbbells.jpg" alt="Exercise">
+                <img src="images/10.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Regular exercise and healthy eating are key</div>
             </div>
             <ul>
@@ -287,7 +289,7 @@
         <div id="conclusion" class="tab-pane">
             <h2>📖 Conclusion</h2>
             <div class="image-box">
-                <img src="https://www.heart.org/-/media/Images/Health-Topics/High-Blood-Pressure/healthy-heart.jpg" alt="Healthy heart">
+                <img src="images/13.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">A healthy heart starts with healthy habits</div>
             </div>
             <p>Hypertension is manageable and preventable. Regular monitoring, healthy lifestyle choices, and following prescribed treatments can significantly reduce risks of heart attack, stroke, and kidney disease. Education and awareness are the first steps toward better cardiovascular health.</p>
