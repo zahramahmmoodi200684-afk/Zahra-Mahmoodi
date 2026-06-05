@@ -705,7 +705,6 @@
                 <div class="stat-box"><div class="number">10.4M</div><div>Annual deaths from hypertension</div></div>
                 <div class="stat-box"><div class="number">1.28B</div><div>People affected worldwide</div></div>
             </div>
-        </div>
 
         <!-- ===== بخش پخش‌کننده صوتی ===== -->
 <div class="audio-player-container">
@@ -747,6 +746,8 @@
             </div>
         </div>
     </div>
+</div>
+
 </div>
 
     </div>
