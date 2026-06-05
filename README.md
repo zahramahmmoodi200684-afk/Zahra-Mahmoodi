@@ -1,2 +1,132 @@
-# Zahra-
-فشار خون
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فشار خون بالا - هایپرتنشن</title>
+    <style>
+        body { font-family: 'Tahoma', 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f0f0f0; }
+        .container { max-width: 950px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        h1 { color: #c0392b; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; text-align: center; }
+        h2 { color: #e67e22; margin-top: 30px; border-right: 5px solid #e74c3c; padding-right: 10px; }
+        .intro { background: #fdebd0; padding: 20px; border-radius: 10px; margin: 20px 0; border-right: 5px solid #e74c3c; }
+        ul { margin: 10px 0; padding-right: 20px; }
+        li { margin-bottom: 8px; }
+        footer { text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #ddd; color: #7f8c8d; font-size: 0.9em; }
+        .highlight { background: #f9ebea; padding: 15px; border-radius: 8px; border-right: 3px solid #e74c3c; margin: 15px 0; }
+        .bp-table { background: #fef9e7; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .image-box { text-align: center; margin: 25px 0; }
+        .image-box img { max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.85em; color: #666; margin-top: 8px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🩸 فشار خون بالا (هایپرتنشن)</h1>
+    <p style="text-align: center;">منبع آموزشی سلامت - زهرا محمودی</p>
+    
+    <!-- عکس header -->
+    <div class="image-box">
+        <img src="https://www.who.int/images/default-source/health-topics/hypertension/blood-pressure-measurement.tmb-479v.jpg" alt="اندازه‌گیری فشار خون" onerror="this.src='https://via.placeholder.com/600x300?text=Blood+Pressure'">
+        <div class="caption">اندازه‌گیری فشار خون - اولین قدم برای تشخیص</div>
+    </div>
+
+    <div class="intro">
+        <h2>📌 مقدمه</h2>
+        <p>فشار خون بالا یا هایپرتنشن، یک بیماری مزمن است که در آن فشار خون در شریان‌ها به طور مداوم بالاتر از حد طبیعی است. به این بیماری «قاتل خاموش» می‌گویند زیرا معمولاً هیچ علامت هشداردهنده‌ای ندارد اما می‌تواند به مشکلات جدی مانند حمله قلبی، سکته مغزی و نارسایی کلیه منجر شود.</p>
+    </div>
+    
+    <!-- عکس قلب سالم -->
+    <div class="image-box">
+        <img src="https://www.heart.org/-/media/Images/Health-Topics/High-Blood-Pressure/healthy-heart.jpg" alt="قلب سالم" onerror="this.src='https://via.placeholder.com/600x300?text=Healthy+Heart'">
+        <div class="caption">مراقبت از قلب با کنترل فشار خون</div>
+    </div>
+    
+    <h2>🩺 علل و عوامل خطر</h2>
+    <p>فشار خون بالا به دو نوع تقسیم می‌شود:</p>
+    <ul>
+        <li><strong>نوع اولیه (اساسی):</strong> علت مشخصی ندارد و به تدریج طی سال‌ها ایجاد می‌شود. عوامل خطر شامل افزایش سن، ژنتیک، چاقی، مصرف زیاد نمک، کم تحرکی و استرس است.</li>
+        <li><strong>نوع ثانویه:</strong> در اثر بیماری زمینه‌ای مانند بیماری کلیوی، تومور غدد فوق کلیوی، مشکلات تیروئید یا مصرف برخی داروها ایجاد می‌شود.</li>
+    </ul>
+    
+    <h2>⚠️ علائم</h2>
+    <p>بیشتر افراد مبتلا به فشار خون بالا هیچ علامتی ندارند. اما در فشار خون بسیار بالا ممکن است این علائم دیده شود:</p>
+    <ul>
+        <li>سردردهای شدید</li>
+        <li>تنگی نفس</li>
+        <li>خونریزی بینی</li>
+        <li>درد قفسه سینه</li>
+        <li>مشکلات بینایی</li>
+    </ul>
+    
+    <!-- عکس علائم -->
+    <div class="image-box">
+        <img src="https://www.cdc.gov/bloodpressure/images/symptoms-400.jpg" alt="علائم فشار خون بالا" onerror="this.src='https://via.placeholder.com/600x300?text=Symptoms'">
+        <div class="caption">علائم هشداردهنده فشار خون بالا</div>
+    </div>
+    
+    <h2>🔬 تشخیص</h2>
+    <div class="bp-table">
+        <p><strong>🔹 طبیعی:</strong> کمتر از 80/120 میلی‌متر جیوه</p>
+        <p><strong>🔹 بالاتر از طبیعی:</strong> 80-129/کمتر از 80 میلی‌متر جیوه</p>
+        <p><strong>🔹 مرحله 1 فشار خون بالا:</strong> 80-89/130-139 میلی‌متر جیوه</p>
+        <p><strong>🔹 مرحله 2 فشار خون بالا:</strong> 90 یا بالاتر/140 یا بالاتر میلی‌متر جیوه</p>
+        <p><strong>🔹 بحران فشار خون:</strong> بالاتر از 120/180 میلی‌متر جیوه (نیاز به مراقبت فوری)</p>
+    </div>
+    
+    <!-- عکس دستگاه فشار خون -->
+    <div class="image-box">
+        <img src="https://images.pexels.com/photos/4386466/doctor-measuring-blood-pressure.jpg" alt="دستگاه فشار خون" onerror="this.src='https://via.placeholder.com/600x300?text=Blood+Pressure+Monitor'">
+        <div class="caption">اندازه‌گیری منظم فشار خون در خانه</div>
+    </div>
+    
+    <h2>💊 درمان</h2>
+    <ul>
+        <li><strong>تغییر سبک زندگی:</strong> کاهش مصرف نمک، مصرف میوه و سبزیجات بیشتر (رژیم DASH)، ورزش منظم (حداقل ۳۰ دقیقه در روز)، حفظ وزن سالم، محدودیت الکل و ترک سیگار</li>
+        <li><strong>داروهای رایج:</strong> مهارکننده‌های ACE (لیزینوپریل)، مسدودکننده‌های گیرنده آنژیوتانسین (لوزارتان)، مسدودکننده‌های کانال کلسیم (آملودیپین)، دیورتیک‌ها (هیدروکلروتیازید)</li>
+    </ul>
+    
+    <!-- عکس دارو -->
+    <div class="image-box">
+        <img src="https://www.drugs.com/images/pills/color/lisinopril-10-mg.jpg" alt="داروی فشار خون" onerror="this.src='https://via.placeholder.com/600x200?text=Medication'">
+        <div class="caption">داروهای تجویزی فشار خون - فقط با نظر پزشک مصرف شود</div>
+    </div>
+    
+    <div class="highlight">
+        🔔 <strong>نکته مهم:</strong> بیشتر بیماران باید مادام‌العمر دارو مصرف کنند. هرگز بدون نظر پزشک دارو را قطع نکنید.
+    </div>
+    
+    <h2>🛡️ پیشگیری</h2>
+    <!-- عکس ورزش و تغذیه سالم -->
+    <div class="image-box">
+        <img src="https://images.pexels.com/photos/2294361/exercise-weights-dumbbells.jpg" alt="ورزش منظم" onerror="this.src='https://via.placeholder.com/600x300?text=Exercise'">
+        <div class="caption">ورزش منظم و تغذیه سالم، کلید پیشگیری</div>
+    </div>
+    <ul>
+        <li>فشار خون خود را مرتباً بعد از ۱۸ سالگی چک کنید</li>
+        <li>رژیم غذایی متعادل و کم نمک داشته باشید (رژیم DASH)</li>
+        <li>حداقل هفته‌ای ۱۵۰ دقیقه ورزش کنید</li>
+        <li>وزن سالم خود را حفظ کنید (شاخص توده بدنی بین ۵/۱۸ تا ۹/۲۴)</li>
+        <li>استرس را با مدیتیشن یا سرگرمی‌ها مدیریت کنید</li>
+        <li>کافئین و مواد مخدر تفریحی را محدود کنید</li>
+    </ul>
+    
+    <!-- عکس اندازه‌گیری فشار خون -->
+    <div class="image-box">
+        <img src="https://www.cdc.gov/bloodpressure/images/measure-blood-pressure-400.jpg" alt="اندازه‌گیری فشار خون در خانه" onerror="this.src='https://via.placeholder.com/600x300?text=Measure+BP'">
+        <div class="caption">اندازه‌گیری منظم فشار خون در خانه را جدی بگیرید</div>
+    </div>
+    
+    <h2>🌍 آمار جهانی</h2>
+    <p>طبق گزارش سازمان جهانی بهداشت (WHO)، حدود <strong>۱.۲۸ میلیارد</strong> بزرگسال ۳۰ تا ۷۹ ساله در جهان فشار خون بالا دارند که تقریباً نیمی از آنها از بیماری خود بی‌خبرند. این بیماری یکی از علل اصلی مرگ زودرس در جهان است و سالانه بیش از <strong>۱۰ میلیون مرگ</strong> را باعث می‌شود.</p>
+    
+    <h2>📖 نتیجه‌گیری</h2>
+    <p>فشار خون بالا قابل کنترل و پیشگیری است. پایش منظم، انتخاب سبک زندگی سالم و پیروی از درمان‌های تجویز شده می‌تواند خطر حمله قلبی، سکته مغزی و بیماری کلیوی را به میزان قابل توجهی کاهش دهد. آگاهی و آموزش، اولین قدم‌ها به سوی سلامت قلب و عروق است.</p>
+    
+    <footer>
+        منابع: سازمان جهانی بهداشت (WHO)، انجمن قلب آمریکا، مرکز کنترل بیماری‌های آمریکا (CDC)، کلینیک مایو<br>
+        این اطلاعات فقط برای اهداف آموزشی است. همیشه با پزشک خود مشورت کنید.
+    </footer>
+</div>
+</body>
+</html>
