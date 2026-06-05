@@ -182,7 +182,7 @@
         <!-- Introduction -->
         <div id="intro" class="tab-pane active">
             <div class="image-box">
-                <img src="images/3.jpg" alt="Blood pressure measurement">
+                <img src="https://share.google/Xlf88MRw5pqtyx0iV" alt="Blood pressure measurement">
                 <img src="images/2.jpg" alt="Blood pressure measurement">
 
                 <div class="image-caption">Measuring blood pressure - First step to diagnosis</div>
