@@ -1,88 +1,132 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypertension - High Blood Pressure Info</title>
+    <title>فشار خون بالا - هایپرتنشن</title>
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f4f4f4; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        h1 { color: #c0392b; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; }
-        h2 { color: #e67e22; margin-top: 25px; }
-        .intro { background: #fdebd0; padding: 15px; border-radius: 5px; margin: 20px 0; border-left: 5px solid #e74c3c; }
-        ul, ol { margin: 10px 0; padding-left: 20px; }
-        footer { text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid #ddd; color: #7f8c8d; font-size: 0.9em; }
-        .highlight { background: #f9ebea; padding: 10px; border-radius: 5px; }
+        body { font-family: 'Tahoma', 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f0f0f0; }
+        .container { max-width: 950px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+        h1 { color: #c0392b; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; text-align: center; }
+        h2 { color: #e67e22; margin-top: 30px; border-right: 5px solid #e74c3c; padding-right: 10px; }
+        .intro { background: #fdebd0; padding: 20px; border-radius: 10px; margin: 20px 0; border-right: 5px solid #e74c3c; }
+        ul { margin: 10px 0; padding-right: 20px; }
+        li { margin-bottom: 8px; }
+        footer { text-align: center; margin-top: 40px; padding-top: 15px; border-top: 1px solid #ddd; color: #7f8c8d; font-size: 0.9em; }
+        .highlight { background: #f9ebea; padding: 15px; border-radius: 8px; border-right: 3px solid #e74c3c; margin: 15px 0; }
+        .bp-table { background: #fef9e7; padding: 15px; border-radius: 8px; margin: 15px 0; }
+        .image-box { text-align: center; margin: 25px 0; }
+        .image-box img { max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .caption { font-size: 0.85em; color: #666; margin-top: 8px; }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>Hypertension (High Blood Pressure)</h1>
-    <p>Your Name - Educational Health Resource</p>
+    <h1>🩸 فشار خون بالا (هایپرتنشن)</h1>
+    <p style="text-align: center;">منبع آموزشی سلامت - زهرا محمودی</p>
     
+    <!-- عکس header -->
+    <div class="image-box">
+        <img src="https://www.who.int/images/default-source/health-topics/hypertension/blood-pressure-measurement.tmb-479v.jpg" alt="اندازه‌گیری فشار خون" onerror="this.src='https://via.placeholder.com/600x300?text=Blood+Pressure'">
+        <div class="caption">اندازه‌گیری فشار خون - اولین قدم برای تشخیص</div>
+    </div>
+
     <div class="intro">
-        <h2>📌 Introduction</h2>
-        <p>Hypertension, commonly known as high blood pressure, is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. It is often called the "silent killer" because it usually has no warning signs or symptoms, but can lead to serious health problems like heart attack, stroke, and kidney failure.</p>
+        <h2>📌 مقدمه</h2>
+        <p>فشار خون بالا یا هایپرتنشن، یک بیماری مزمن است که در آن فشار خون در شریان‌ها به طور مداوم بالاتر از حد طبیعی است. به این بیماری «قاتل خاموش» می‌گویند زیرا معمولاً هیچ علامت هشداردهنده‌ای ندارد اما می‌تواند به مشکلات جدی مانند حمله قلبی، سکته مغزی و نارسایی کلیه منجر شود.</p>
     </div>
     
-    <h2>🩺 Causes and Risk Factors</h2>
-    <p>Hypertension is divided into two types:</p>
+    <!-- عکس قلب سالم -->
+    <div class="image-box">
+        <img src="https://www.heart.org/-/media/Images/Health-Topics/High-Blood-Pressure/healthy-heart.jpg" alt="قلب سالم" onerror="this.src='https://via.placeholder.com/600x300?text=Healthy+Heart'">
+        <div class="caption">مراقبت از قلب با کنترل فشار خون</div>
+    </div>
+    
+    <h2>🩺 علل و عوامل خطر</h2>
+    <p>فشار خون بالا به دو نوع تقسیم می‌شود:</p>
     <ul>
-        <li><strong>Primary (Essential) Hypertension:</strong> No single identifiable cause; develops gradually over many years. Risk factors include age, genetics, obesity, high salt intake, lack of physical activity, and stress.</li>
-        <li><strong>Secondary Hypertension:</strong> Caused by an underlying condition such as kidney disease, adrenal gland tumors, thyroid problems, or use of certain medications like birth control pills or NSAIDs.</li>
+        <li><strong>نوع اولیه (اساسی):</strong> علت مشخصی ندارد و به تدریج طی سال‌ها ایجاد می‌شود. عوامل خطر شامل افزایش سن، ژنتیک، چاقی، مصرف زیاد نمک، کم تحرکی و استرس است.</li>
+        <li><strong>نوع ثانویه:</strong> در اثر بیماری زمینه‌ای مانند بیماری کلیوی، تومور غدد فوق کلیوی، مشکلات تیروئید یا مصرف برخی داروها ایجاد می‌شود.</li>
     </ul>
     
-    <h2>⚠️ Symptoms</h2>
-    <p>Most people with hypertension have no symptoms at all. However, extremely high blood pressure (hypertensive crisis) may cause:</p>
+    <h2>⚠️ علائم</h2>
+    <p>بیشتر افراد مبتلا به فشار خون بالا هیچ علامتی ندارند. اما در فشار خون بسیار بالا ممکن است این علائم دیده شود:</p>
     <ul>
-        <li>Severe headaches</li>
-        <li>Shortness of breath</li>
-        <li>Nosebleeds</li>
-        <li>Flushing</li>
-        <li>Chest pain</li>
-        <li>Vision problems</li>
-        <li>Blood in urine</li>
-    </ul>
-    <p class="highlight">🔔 <strong>Note:</strong> Regular blood pressure checks are essential because symptoms usually appear only when the condition has already caused organ damage.</p>
-    
-    <h2>🔬 Diagnosis</h2>
-    <p>Diagnosis is made by measuring blood pressure using a sphygmomanometer (blood pressure cuff). According to standard guidelines:</p>
-    <ul>
-        <li><strong>Normal:</strong> Less than 120/80 mm Hg</li>
-        <li><strong>Elevated:</strong> 120-129/less than 80 mm Hg</li>
-        <li><strong>Stage 1 Hypertension:</strong> 130-139/80-89 mm Hg</li>
-        <li><strong>Stage 2 Hypertension:</strong> 140 or higher/90 or higher mm Hg</li>
-        <li><strong>Hypertensive Crisis:</strong> Higher than 180/120 mm Hg (requires immediate medical attention)</li>
-    </ul>
-    <p>Doctors may also order blood tests, urine tests, ECG, or echocardiogram to check for complications.</p>
-    
-    <h2>💊 Treatment</h2>
-    <p>Treatment includes lifestyle changes and medications:</p>
-    <ul>
-        <li><strong>Lifestyle modifications:</strong> Reduce salt intake, eat more fruits/vegetables (DASH diet), exercise regularly (at least 30 minutes daily), maintain healthy weight, limit alcohol, and quit smoking.</li>
-        <li><strong>Common medications:</strong> ACE inhibitors (Lisinopril), ARBs (Losartan), Calcium channel blockers (Amlodipine), Diuretics (Hydrochlorothiazide), Beta-blockers (Metoprolol).</li>
-    </ul>
-    <p>Most patients need to take medication for life. Never stop medication without doctor's advice.</p>
-    
-    <h2>🛡️ Prevention</h2>
-    <ul>
-        <li>Check your blood pressure regularly after age 18</li>
-        <li>Eat a balanced, low-sodium diet</li>
-        <li>Exercise at least 150 minutes per week</li>
-        <li>Maintain a healthy BMI (18.5-24.9)</li>
-        <li>Manage stress through meditation or hobbies</li>
-        <li>Limit caffeine and avoid recreational drugs</li>
+        <li>سردردهای شدید</li>
+        <li>تنگی نفس</li>
+        <li>خونریزی بینی</li>
+        <li>درد قفسه سینه</li>
+        <li>مشکلات بینایی</li>
     </ul>
     
-    <h2>🌍 Global Impact</h2>
-    <p>According to the World Health Organization (WHO), an estimated 1.28 billion adults aged 30-79 years worldwide have hypertension, with nearly half unaware of their condition. It is a leading cause of premature death globally, responsible for over 10 million deaths annually. Low- and middle-income countries bear the greatest burden due to limited healthcare access.</p>
+    <!-- عکس علائم -->
+    <div class="image-box">
+        <img src="https://www.cdc.gov/bloodpressure/images/symptoms-400.jpg" alt="علائم فشار خون بالا" onerror="this.src='https://via.placeholder.com/600x300?text=Symptoms'">
+        <div class="caption">علائم هشداردهنده فشار خون بالا</div>
+    </div>
     
-    <h2>📖 Conclusion</h2>
-    <p>Hypertension is manageable and preventable. Regular monitoring, healthy lifestyle choices, and following prescribed treatments can significantly reduce risks of heart attack, stroke, and kidney disease. Education and awareness are the first steps toward better cardiovascular health.</p>
+    <h2>🔬 تشخیص</h2>
+    <div class="bp-table">
+        <p><strong>🔹 طبیعی:</strong> کمتر از 80/120 میلی‌متر جیوه</p>
+        <p><strong>🔹 بالاتر از طبیعی:</strong> 80-129/کمتر از 80 میلی‌متر جیوه</p>
+        <p><strong>🔹 مرحله 1 فشار خون بالا:</strong> 80-89/130-139 میلی‌متر جیوه</p>
+        <p><strong>🔹 مرحله 2 فشار خون بالا:</strong> 90 یا بالاتر/140 یا بالاتر میلی‌متر جیوه</p>
+        <p><strong>🔹 بحران فشار خون:</strong> بالاتر از 120/180 میلی‌متر جیوه (نیاز به مراقبت فوری)</p>
+    </div>
+    
+    <!-- عکس دستگاه فشار خون -->
+    <div class="image-box">
+        <img src="https://images.pexels.com/photos/4386466/doctor-measuring-blood-pressure.jpg" alt="دستگاه فشار خون" onerror="this.src='https://via.placeholder.com/600x300?text=Blood+Pressure+Monitor'">
+        <div class="caption">اندازه‌گیری منظم فشار خون در خانه</div>
+    </div>
+    
+    <h2>💊 درمان</h2>
+    <ul>
+        <li><strong>تغییر سبک زندگی:</strong> کاهش مصرف نمک، مصرف میوه و سبزیجات بیشتر (رژیم DASH)، ورزش منظم (حداقل ۳۰ دقیقه در روز)، حفظ وزن سالم، محدودیت الکل و ترک سیگار</li>
+        <li><strong>داروهای رایج:</strong> مهارکننده‌های ACE (لیزینوپریل)، مسدودکننده‌های گیرنده آنژیوتانسین (لوزارتان)، مسدودکننده‌های کانال کلسیم (آملودیپین)، دیورتیک‌ها (هیدروکلروتیازید)</li>
+    </ul>
+    
+    <!-- عکس دارو -->
+    <div class="image-box">
+        <img src="https://www.drugs.com/images/pills/color/lisinopril-10-mg.jpg" alt="داروی فشار خون" onerror="this.src='https://via.placeholder.com/600x200?text=Medication'">
+        <div class="caption">داروهای تجویزی فشار خون - فقط با نظر پزشک مصرف شود</div>
+    </div>
+    
+    <div class="highlight">
+        🔔 <strong>نکته مهم:</strong> بیشتر بیماران باید مادام‌العمر دارو مصرف کنند. هرگز بدون نظر پزشک دارو را قطع نکنید.
+    </div>
+    
+    <h2>🛡️ پیشگیری</h2>
+    <!-- عکس ورزش و تغذیه سالم -->
+    <div class="image-box">
+        <img src="https://images.pexels.com/photos/2294361/exercise-weights-dumbbells.jpg" alt="ورزش منظم" onerror="this.src='https://via.placeholder.com/600x300?text=Exercise'">
+        <div class="caption">ورزش منظم و تغذیه سالم، کلید پیشگیری</div>
+    </div>
+    <ul>
+        <li>فشار خون خود را مرتباً بعد از ۱۸ سالگی چک کنید</li>
+        <li>رژیم غذایی متعادل و کم نمک داشته باشید (رژیم DASH)</li>
+        <li>حداقل هفته‌ای ۱۵۰ دقیقه ورزش کنید</li>
+        <li>وزن سالم خود را حفظ کنید (شاخص توده بدنی بین ۵/۱۸ تا ۹/۲۴)</li>
+        <li>استرس را با مدیتیشن یا سرگرمی‌ها مدیریت کنید</li>
+        <li>کافئین و مواد مخدر تفریحی را محدود کنید</li>
+    </ul>
+    
+    <!-- عکس اندازه‌گیری فشار خون -->
+    <div class="image-box">
+        <img src="https://www.cdc.gov/bloodpressure/images/measure-blood-pressure-400.jpg" alt="اندازه‌گیری فشار خون در خانه" onerror="this.src='https://via.placeholder.com/600x300?text=Measure+BP'">
+        <div class="caption">اندازه‌گیری منظم فشار خون در خانه را جدی بگیرید</div>
+    </div>
+    
+    <h2>🌍 آمار جهانی</h2>
+    <p>طبق گزارش سازمان جهانی بهداشت (WHO)، حدود <strong>۱.۲۸ میلیارد</strong> بزرگسال ۳۰ تا ۷۹ ساله در جهان فشار خون بالا دارند که تقریباً نیمی از آنها از بیماری خود بی‌خبرند. این بیماری یکی از علل اصلی مرگ زودرس در جهان است و سالانه بیش از <strong>۱۰ میلیون مرگ</strong> را باعث می‌شود.</p>
+    
+    <h2>📖 نتیجه‌گیری</h2>
+    <p>فشار خون بالا قابل کنترل و پیشگیری است. پایش منظم، انتخاب سبک زندگی سالم و پیروی از درمان‌های تجویز شده می‌تواند خطر حمله قلبی، سکته مغزی و بیماری کلیوی را به میزان قابل توجهی کاهش دهد. آگاهی و آموزش، اولین قدم‌ها به سوی سلامت قلب و عروق است.</p>
     
     <footer>
-        Sources: World Health Organization (WHO), American Heart Association, CDC, Mayo Clinic<br>
-        This information is for educational purposes. Always consult a healthcare provider.
+        منابع: سازمان جهانی بهداشت (WHO)، انجمن قلب آمریکا، مرکز کنترل بیماری‌های آمریکا (CDC)، کلینیک مایو<br>
+        این اطلاعات فقط برای اهداف آموزشی است. همیشه با پزشک خود مشورت کنید.
     </footer>
 </div>
 </body>
