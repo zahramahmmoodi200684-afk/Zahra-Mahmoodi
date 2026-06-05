@@ -182,7 +182,7 @@
         <!-- Introduction -->
         <div id="intro" class="tab-pane active">
             <div class="image-box">
-                <img src="https://www.who.int/images/default-source/health-topics/hypertension/blood-pressure-measurement.tmb-479v.jpg" alt="Blood pressure measurement">
+                <img src="images/1.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Measuring blood pressure - First step to diagnosis</div>
             </div>
             <div class="intro-box">
