@@ -201,7 +201,7 @@
         <!-- Introduction -->
         <div id="intro" class="tab-pane active">
             <div class="image-box">
-                <img src="images/1.jpg" alt="Blood pressure measurement">
+                <img src="images/2.jpg" alt="Blood pressure measurement">
                 <div class="image-caption">Measuring blood pressure - First step to diagnosis</div>
             </div>
             <div class="intro-box">
@@ -233,7 +233,7 @@
         <div id="symptoms" class="tab-pane">
             <h2>⚠️ Warning Signs & Symptoms</h2>
             <div class="image-box">
-                <img src="images/2.jpg" alt="Symptoms of hypertension">
+                <img src="images/6.jpg" alt="Symptoms of hypertension">
                 <div class="image-caption">Severe headache and chest pain are warning signs</div>
             </div>
             <p>Most people with hypertension have no symptoms at all. However, extremely high blood pressure (hypertensive crisis) may cause:</p>
@@ -255,7 +255,7 @@
         <div id="diagnosis" class="tab-pane">
             <h2>🔬 How is Hypertension Diagnosed?</h2>
             <div class="image-box">
-                <img src="images/3.jpg" alt="Blood pressure measurement device">
+                <img src="images/8.jpg" alt="Blood pressure measurement device">
                 <div class="image-caption">Regular monitoring at home is important</div>
             </div>
             <p>Diagnosis is made by measuring blood pressure using a sphygmomanometer (blood pressure cuff). According to standard guidelines:</p>
@@ -273,7 +273,7 @@
         <div id="treatment" class="tab-pane">
             <h2>💊 Treatment Options</h2>
             <div class="image-box">
-                <img src="images/5.jpg" alt="Blood pressure medications">
+                <img src="images/12.jpg" alt="Blood pressure medications">
                 <div class="image-caption">Common blood pressure medications</div>
             </div>
             <p>Treatment includes lifestyle changes and medications:</p>
@@ -290,7 +290,7 @@
         <div id="prevention" class="tab-pane">
             <h2>🛡️ Prevention Tips</h2>
             <div class="image-box">
-                <img src="images/6.jpg" alt="Healthy lifestyle for prevention">
+                <img src="images/10.jpg" alt="Healthy lifestyle for prevention">
                 <div class="image-caption">Regular exercise and healthy eating are key to prevention</div>
             </div>
             <ul>
@@ -308,7 +308,7 @@
         <div id="conclusion" class="tab-pane">
             <h2>📖 Conclusion</h2>
             <div class="image-box">
-                <img src="images/7.jpg" alt="Healthy heart concept">
+                <img src="images/13.jpg" alt="Healthy heart concept">
                 <div class="image-caption">A healthy heart starts with healthy habits</div>
             </div>
             <p>Hypertension is manageable and preventable. Regular monitoring, healthy lifestyle choices, and following prescribed treatments can significantly reduce risks of heart attack, stroke, and kidney disease. Education and awareness are the first steps toward better cardiovascular health.</p>
