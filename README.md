@@ -160,52 +160,21 @@
             margin: 30px 0;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
-
-        .audio-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 20px;
-            padding: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            transition: transform 0.3s ease;
-        }
-        
-        .audio-card:hover {
-            transform: translateY(-3px);
-        }
-        
-        .audio-icon {
-            text-align: center;
-            margin-bottom: 15px;
-            color: #ffd700;
-        }
-        
-        .audio-icon svg {
-            animation: pulse 2s infinite;
-        }
-        
+    <!-- ===== Voice Introduction Player ===== -->
+<div style="background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 20px; padding: 20px; margin: 20px; text-align: center; color: white; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+    <h3 style="margin: 0 0 10px 0;">🎙️ Audio: What is Hypertension?</h3>
+    <p style="margin: 0 0 15px 0; opacity: 0.9;">Listen to the introduction about high blood pressure</p>
+    <audio controls style="width: 100%; max-width: 350px; margin: 0 auto; display: block; border-radius: 10px;">
+        <source src="images/A.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+</div>        
         @keyframes pulse {
             0% { transform: scale(1); opacity: 1; }
             50% { transform: scale(1.1); opacity: 0.8; }
             100% { transform: scale(1); opacity: 1; }
         }
         
-        .audio-info {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        
-        .audio-title {
-            color: white;
-            font-size: 1.2em;
-            margin: 0 0 8px 0;
-            font-weight: 600;
-        }
-        
-        .audio-description {
-            color: rgba(255,255,255,0.9);
-            font-size: 0.9em;
-            margin: 0;
-        }
         
         .custom-player {
             display: flex;
