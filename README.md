@@ -174,7 +174,322 @@
             50% { transform: scale(1.1); opacity: 0.8; }
             100% { transform: scale(1); opacity: 1; }
         }
-        
+     .audio-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease;
+    }
+   .audio-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.audio-card:hover {
+    transform: translateY(-3px);
+}
+
+.audio-icon {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.audio-icon svg {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.audio-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.audio-title {
+    color: white;
+    font-size: 1.2em;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+}
+
+.audio-description {
+    color: rgba(255,255,255,0.9);
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.custom-player {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(255,255,255,0.2);
+    padding: 12px 18px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.play-btn {
+    background: #ffd700;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.play-btn:hover {
+    transform: scale(1.05);
+    background: #ffed4a;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.play-btn svg {
+    margin-left: 3px;
+}
+
+.progress-container {
+    flex: 1;
+}
+
+.progress-bar {
+    background: rgba(255,255,255,0.3);
+    height: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: #ffd700;
+    height: 100%;
+    width: 0%;
+    border-radius: 3px;
+    transition: width 0.1s linear;
+}
+
+.time-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    color: white;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.volume-btn {
+    background: rgba(255,255,255,0.2);
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.volume-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .custom-player {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .progress-container {
+        width: 100%;
+    }
+    .play-btn {
+        width: 55px;
+        height: 55px;
+    }
+    .audio-title {
+        font-size: 1em;
+    }
+}
+</style>
+
+<!-- ===== HTML پلیر صوتی با فایل A.m4a ===== -->
+<div class="audio-card">
+    <div class="audio-icon">
+        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 10H7L12 5V19L7 14H3V10Z" fill="#ffd700" stroke="#ffd700" stroke-width="1.5"/>
+            <path d="M15.5 8.5C16.5 9.5 17 10.5 17 12C17 13.5 16.5 14.5 15.5 15.5" stroke="#ffd700" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M18 5.5C19.5 7 20.5 9 20.5 12C20.5 15 19.5 17 18 18.5" stroke="#ffd700" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="audio-info">
+        <h3 class="audio-title">🎙️ Audio: What is Hypertension?</h3>
+        <p class="audio-description">Listen to the audio explanation about high blood pressure</p>
+    </div>
+    <audio controls style="width: 100%; border-radius: 10px; margin-top: 10px;">
+        <source src="images/A.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+</div> 
+    .audio-card:hover {
+        transform: translateY(-3px);
+    }
+    
+    .audio-icon {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #ffd700;
+    }
+    
+    .audio-icon svg {
+        animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.1); opacity: 0.8; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+    
+    .audio-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .audio-title {
+        color: white;
+        font-size: 1.2em;
+        margin: 0 0 8px 0;
+        font-weight: 600;
+    }
+    
+    .audio-description {
+        color: rgba(255,255,255,0.9);
+        font-size: 0.9em;
+        margin: 0;
+    }
+    
+    .custom-player {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background: rgba(255,255,255,0.2);
+        padding: 12px 18px;
+        border-radius: 50px;
+        backdrop-filter: blur(10px);
+    }
+    
+    .play-btn {
+        background: #ffd700;
+        border: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    
+    .play-btn:hover {
+        transform: scale(1.05);
+        background: #ffed4a;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    
+    .play-btn svg {
+        margin-left: 3px;
+    }
+    
+    .progress-container {
+        flex: 1;
+    }
+    
+    .progress-bar {
+        background: rgba(255,255,255,0.3);
+        height: 6px;
+        border-radius: 3px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .progress-fill {
+        background: #ffd700;
+        height: 100%;
+        width: 0%;
+        border-radius: 3px;
+        transition: width 0.1s linear;
+    }
+    
+    .time-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+        color: white;
+        font-size: 0.75em;
+        font-weight: 500;
+    }
+    
+    .volume-btn {
+        background: rgba(255,255,255,0.2);
+        border: none;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        transition: all 0.3s ease;
+    }
+    
+    .volume-btn:hover {
+        background: rgba(255,255,255,0.3);
+        transform: scale(1.05);
+    }
+
+@media (max-width: 600px) {
+    .custom-player {
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .progress-container {
+        width: 100%;
+    }
+    
+    .play-btn {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .audio-title {
+        font-size: 1em;
+    }
+}
+
+    
+</style>   
         
         .custom-player {
             display: flex;
